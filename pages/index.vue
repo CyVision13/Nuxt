@@ -3,14 +3,14 @@
     <div>
       <Logo />
       <h1 class="title">
-        NuxtApp
+        NuxtApp Is Awesome!
       </h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button--green" 
         >
           Documentation
         </a>
@@ -24,7 +24,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> 
 </template>
 
 <script>
