@@ -1,29 +1,9 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        NuxtApp Is Awesome!
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green" 
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <!-- <a href="/users">Users</a>  for normal ssr--> 
+    <!-- <router-link></router-link> in vue routes-->
+    <!-- but in nuxt we will do this  -->
+    <nuxt-link to="/users">Users</nuxt-link>
   </div> 
 </template>
 
