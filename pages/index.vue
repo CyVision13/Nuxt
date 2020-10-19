@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- <Header /> -->
     <!-- <a href="/users">Users</a>  for normal ssr--> 
     <!-- <router-link></router-link> in vue routes-->
     <!-- but in nuxt we will do this  -->
@@ -8,7 +9,12 @@
 </template>
 
 <script>
-export default {}
+import Header from '~/components/Header.vue'
+export default {
+  components: {
+    Header
+  }
+}
 </script>
 
 <style>
